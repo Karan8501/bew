@@ -167,6 +167,7 @@ exports.resetPassword = asyncWrapper(async (req, res, next) => {
   sendJWtToken(user, 200, res);
 });
 
+
 //// Get User Detail  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 exports.getUserDetails = asyncWrapper(async (req, res) => {
   const user = await userModel.findById(req.user.id); // user.id because we set that user into as user.req when user gose autentiction. becauae all data of users set into req.user. only user when logged in then access this function

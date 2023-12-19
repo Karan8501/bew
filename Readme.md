@@ -1,4 +1,4 @@
-# Cricket Weapon E-Commerce Shopping App
+# Karan Weapon E-Commerce Shopping App
 ---
 ### ⚙️ &nbsp; Time Taken to Complete this Project :
 <p align="center">
